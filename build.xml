@@ -48,10 +48,12 @@
    
   <!-- delete all class files -->
   <!-- To run this: use "ant clean" -->
-  <!--<target name="clean">
+  <target name="clean">
+    <!--
     <delete>
         <fileset dir="${basedir}" includes="**/*.class" />
     </delete>
     <echo message="clean done" />
-  </target>-->
+    -->
+  </target>
 </project>
